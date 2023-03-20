@@ -3,7 +3,6 @@
 # Write a python program that creates any regular polygon. The number of sides of the polygon and the color of the fill should be entered by the user. After the user provides those values, the turtle should draw the shape, fill it with the color entered and disappear from the graphics window. The program should then ask the user if they want to draw another shape, if the user enters “yes”, the program repeats the process of asking for the input values and re-drawing the shape. This process will repeat until the user enters anything other than “yes”. Before drawing the additional shape, the turtle should erase the current shape being displayed and go back to home.
 The program must do input validation to hecdk that the number of sides is at least 3. The program should continue to ask them to re-enter the number of sides until a valid input is given.
 Hint: To get the angle in degrees for the shape, use the formula , with  being the number of sides of the polygon. Also, for the length of the sides, simply use a constant like 100.
-A sample output is shown below.
 
 
 
